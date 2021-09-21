@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#yaml approach as opposed to route
+#homepage:
+#  path: /
+#  controller: App\Controller\IndexController::home
