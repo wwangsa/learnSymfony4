@@ -32,7 +32,7 @@ Learning Symfony 4 without having to concern spending much time in the environme
 ```shell
     #We're going to share the learnSymfony folder between the host and container
     mkdir /Users/user/Codes/docker-fs/learnSymfony
-    docker pull bitnami/symfony
+    docker pull bitnami/symfony:1.5.11
     docker run -it -d -p 8000:8000 --name learnSymfony -v /Users/user/Codes/docker-fs/learnSymfony:/app bitnami/symfony  
 ```
 
