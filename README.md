@@ -11,7 +11,7 @@ The files are hosted inside the container under /App/myapp/
 To pull this code, inside the container, run the following command  
 ```shell
     #git 
-    git clone https://repo-name myname
+    git clone https://github.com/wwangsa/learnSymfony4.git myapp
 
 ```
 
