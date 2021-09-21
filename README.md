@@ -68,6 +68,8 @@ Not sure how to resurrect mysql inside bitnami container. Easier way is just to 
     SQL > CREATE USER 'symfonyUser'@'%' IDENTIFIED by '{replace_me}';
     SQL > GRANT ALL PRIVILEGES ON *.* TO 'symfonyUser'@'%';
     SQL > FLUSH PRIVILEGES;
+	#How to find the ipaddress for this MySQL container
+	docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' symfonyMySQL
 ```
 
 # Reference
