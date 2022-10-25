@@ -72,5 +72,11 @@ Not sure how to resurrect mysql inside bitnami container. Easier way is just to 
 	docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' symfonyMySQL
 ```
 
+# [Networking](https://docs.docker.com/desktop/networking/)
+To call host/parent ip address, starting with docker 17.06, docker has dns for:
+* docker.for.mac.localhost
+* docker.for.win.localhost
+* host.docker.internal
+
 # Reference
 * [Learning Symfony 4 with Mike Oram](https://www.linkedin.com/learning/learning-symfony-4/)
