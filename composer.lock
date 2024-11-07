@@ -3750,7 +3750,7 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.3.7",
+            "version": "v5.4.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
@@ -3915,7 +3915,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.3.7",
+            "version": "v5.4.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -7002,7 +7002,7 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v5.3.7",
+            "version": "v5.4.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
@@ -7513,7 +7513,7 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.11.1",
+            "version": "v3.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
