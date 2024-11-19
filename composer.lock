@@ -3750,7 +3750,7 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.46",
+            "version": "v5.4.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
